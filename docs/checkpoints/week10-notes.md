@@ -25,13 +25,23 @@
 
 ## 2\. Comparable solutions
 
-*TO VERIFY: try each solution (or read its official page), take a screenshot and fill in the real strengths and limits.*
+*Based on public app-store pages, the vendors' own pages and review articles (November 2026). Prices and limits change often, so the team should open both apps once, take a screenshot and confirm anything marked "(confirm)".*
 
 |Solution|What it does well|Limitation for our users|What SplitMate does|
 |-|-|-|-|
-|Splitwise|*verify*|*verify*|*verify*|
-|Tricount|*verify*|*verify*|*verify*|
-|Chat + spreadsheet|Free, no setup|No automatic balance, receipts scattered, errors|Single place with automatic balance and report|
+|Splitwise|Groups; several split types (equal, exact, percentage, shares); "simplify debts" repayment plan; categories; group totals; CSV export; comments on expenses|Free plan allows only 4 new expenses per day and shows ads; receipt storage, currency conversion and search seem to be Pro features (confirm); groups have no admin role, so any member can edit or delete an expense|No daily limit; group creator role with admin rights; receipt upload for all members; dedicated printable summary report|
+|Tricount|Free and without ads; receipt photos; uneven splitting; many currencies; members can join by link; automatic expense import for bunq card holders|Built around a trip ledger and tied to the bunq bank; the former Premium plan was discontinued and some of its features were removed; we cannot change or host it ourselves|Same core workflow, but fully under our control, with roles and a printable report designed into the data model|
+|Chat + spreadsheet|Free, no setup|No automatic balance, receipts scattered, errors in manual calculation|Single place with automatic balance and report|
+
+**Takeaway.** Existing apps already solve the core problem well. SplitMate is a smaller course project that implements the same core workflow (groups, categories, expenses with receipts, balance, printable report) with a clear role model, and is not meant to replace them.
+
+**Sources checked:**
+
+* https://www.tricount.com/en/features
+* https://apps.apple.com/us/app/tricount/id349866256
+* https://european-alternatives.eu/product/tricount
+* https://apps.apple.com/us/app/splitwise/id458023433
+* https://www.moneycrashers.com/splitwise-review/
 
 ## 3\. Key user workflows
 
