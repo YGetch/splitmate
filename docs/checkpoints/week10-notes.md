@@ -1,15 +1,13 @@
 # Checkpoint - Research and requirements (week 10)
 
-**Project:** SplitMate - Shared Expenses \& Group Budget Tracker
-**Team:** Vladyslav Olefir, Daryna Nevska
-**Date of checkpoint:** *fill in*
-**Repository:** *link to GitHub repo*
+* **Project:** SplitMate - Shared Expenses & Group Budget Tracker
+* **Team:** Vladyslav Olefir, Daryna Nevska
+* **Date of checkpoint:** 24 November 2026
+* **Repository:** https://github.com/YGetch/splitmate
 
-> Draft status: the sections marked \_TO CONFIRM\_ or \_TO VERIFY\_ must be checked by the team before the oral update.
+---
 
-\---
-
-## 1\. Problem and target users
+## 1. Problem and target users
 
 **Problem.** Friends on a trip or students sharing a dorm pay for common things at different times (accommodation, food, transport). The costs are usually tracked in chats, notes or spreadsheets, so it is hard to see who paid what, who owes whom, and receipts get lost.
 
@@ -23,9 +21,9 @@
 * **Group creator (admin):** creates the group (trip or budget), invites members, manages categories.
 * **Member:** adds expenses with a receipt photo, filters expenses, sees the balance and the printable report.
 
-## 2\. Comparable solutions
+## 2. Comparable solutions
 
-*Based on public app-store pages, the vendors' own pages and review articles (November 2026). Prices and limits change often, so the team should open both apps once, take a screenshot and confirm anything marked "(confirm)".*
+*Based on public app-store pages, the vendors' own pages and review articles (November 2026). Prices and limits change often; items marked "(confirm)" were not verified in the apps themselves.*
 
 |Solution|What it does well|Limitation for our users|What SplitMate does|
 |-|-|-|-|
@@ -43,7 +41,7 @@
 * https://apps.apple.com/us/app/splitwise/id458023433
 * https://www.moneycrashers.com/splitwise-review/
 
-## 3\. Key user workflows
+## 3. Key user workflows
 
 **Workflow 1 - Create a group (creator).**
 
@@ -54,12 +52,12 @@
 **Workflow 2 - Add and review expenses (member).**
 
 1. Log in and open the group.
-2. Add an expense: amount, date, category, who paid, receipt photo.
+2. Add an expense: amount, date, category, who paid, who shares it, receipt photo.
 3. Filter expenses by category and payer, or by date range.
 4. Open the summary: who owes whom, and the average spending per category.
 5. Open the printable report for the trip or month.
 
-## 4\. Initial backlog
+## 4. Initial backlog
 
 **Must have**
 
@@ -80,32 +78,29 @@
 * Cookie for a user setting (for example theme)
 * Custom error pages (404, 403, 500)
 * Asynchronous filtering without page reload
-* Recording a payment between members ("settle up")
 
 **Could have**
 
+* Recording a payment between members ("settle up", needs an additional table)
 * Unequal splitting of an expense
 * Several currencies
 * CSV export
 * Simple charts
 
-## 5\. Team responsibilities - *TO CONFIRM with Daryna*
+## 5. Team responsibilities (agreed by both members)
 
 |Area|Vladyslav|Daryna|
 |-|-|-|
 |Main features|Authentication, roles, groups and members, balance calculation|Expenses (CRUD + receipt), categories, search/filter, printable report|
 |Security|Passwords, sessions, CSRF|XSS and SQL injection in own parts, file upload checks|
 |Testing|Tests Daryna's parts|Tests Vladyslav's parts|
-|Together|Database schema and ER diagram, shared layout, responsive CSS, README, report, slides||
+|Together|Database schema and ER diagram, shared layout, responsive CSS, README, report, slides|Database schema and ER diagram, shared layout, responsive CSS, README, report, slides|
 
-## 6\. Evidence for the oral update
+## 6. Evidence for the oral update
 
 * Repository link with commits from both team members
 * This document
-* *optional:* screenshots of the compared solutions, a sketch of the data model
 
-## 7\. Open questions
+## 7. Lecturer feedback
 
-* Confirm with the lecturer which checkpoints are expected and how to report the ones already passed.
-* Agree on the final list of tables with the partner before writing `schema.sql`.
-
+* By the next lesson (1 December 2026) all work up to and including week 13 must be completed.
